@@ -1,0 +1,160 @@
+.login-container {
+  display: flex;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  flex-direction: row;
+}
+.carousel-section {
+  flex: 1;
+  background: linear-gradient(to bottom, #f85032, #e73827);
+  padding: 2rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.top-logo {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 80px;
+  height: auto;
+}
+
+.carousel-image {
+  max-height: 260px;
+  object-fit: contain;
+  margin-bottom: 2rem;
+}
+
+.carousel-text h4 {
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+
+.carousel-text p {
+  color: #fff;
+  font-size: 0.9rem;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.carousel-indicators {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.dot {
+  height: 8px;
+  width: 8px;
+  margin: 0 4px;
+  background-color: #ddd;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.dot.active {
+  background-color: #fff;
+}
+
+.form-section {
+  flex: 1;
+  padding: 3rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.form-logo {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;        
+  object-fit: cover;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+}
+
+
+.logo-text {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+  color: #1e40af;
+}
+
+.login-form input {
+  margin-bottom: 1rem;
+  padding: 10px 12px;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.divider {
+  text-align: center;
+  margin: 1rem 0;
+  position: relative;
+}
+
+.divider::before,
+.divider::after {
+  content: "";
+  position: absolute;
+  height: 1px;
+  width: 40%;
+  background-color: #ccc;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+.divider::after {
+  right: 0;
+}
+
+@media (max-width: 768px) {
+   .login-container {
+    flex-direction: column;
+    height: auto;
+    overflow-y: auto;
+  }
+
+  .carousel-section,
+  .form-section {
+    flex: none;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .top-logo {
+    width: 60px;
+    top: 10px;
+    right: 10px;
+  }
+
+  .carousel-image {
+    max-height: 180px;
+  }
+
+  .carousel-indicators {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .form-logo {
+    position: static;
+    margin: 0 auto 1rem auto;
+    display: block;
+  }
+
+}
+

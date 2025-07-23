@@ -1,0 +1,25 @@
+.circular-text {
+  margin: 0 auto;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  font-weight: bold;
+  color: #000;
+  text-align: center;
+  transform-origin: 50% 50%;
+  cursor: pointer;
+  z-index: 3;
+  background-color: antiquewhite;
+}
+
+.circular-text span {
+  position: absolute;
+  display: inline-block;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  font-size: 18px;
+  transition: all 0.5s cubic-bezier(0, 0, 0, 1);
+}

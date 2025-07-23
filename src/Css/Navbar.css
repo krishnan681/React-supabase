@@ -1,0 +1,8 @@
+.glass-navbar {
+  background: rgb(194, 222, 255); 
+  border-radius: 10px;
+  padding: 10px 40px;
+  max-width: 1000px;
+  width: 95%;
+  z-index: 1000;
+}

@@ -1,0 +1,20 @@
+/* Add this in your CSS or <style> section */
+.directory-container {
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+
+.directory-sidebar {
+  width: 25%;
+  min-width: 250px;
+  padding: 1rem;
+  border-right: 1px solid #ddd;
+  background-color: #f8f9fa;
+}
+
+.directory-content {
+  width: 75%;
+  overflow-y: auto;
+  padding: 1rem;
+}
