@@ -1,5 +1,36 @@
 # My Awesome React + Vite + Supabase Project
 
+
+npm create vite@latest React+Supabase
+npm install
+npm install @supabase/supabase-js
+npm install react-router-dom  
+npm install bootstrap 
+npm install react-icons   
+npm install bootstrap react-bootstrap react-icons
+npm install framer-motion
+npm install swiper aos   
+npm install sweetalert2  
+
+
+
+
+
+git init   
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/username/signpost-react-supabase.git
+git push -u origin main
+
+
+git add .
+git commit -m "add full project"
+git push
+
+
+
+
 A modern web application built with React, bundled with Vite for lightning-fast development, and powered by Supabase for a robust backend (database, authentication, storage, and more!).
 
 ## Table of Contents
